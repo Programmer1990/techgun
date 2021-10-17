@@ -9,7 +9,7 @@ class App extends Component{
         }
     }
     apple(){
-        alert("apple")
+        this.setState({data:"Narinder"})
     }
 render()
 {
