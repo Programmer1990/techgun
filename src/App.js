@@ -8,13 +8,16 @@ class App extends Component{
             data:"Singh"
         }
     }
+    apple(){
+        alert("apple")
+    }
 render()
 {
     return(
         <div className="App">
             <h1> Hello world!</h1>
             <h1> {this.state.data}</h1>
-            
+            <button onClick={()=>this.apple()}> Update Data</button>
              
             <User/>
         </div>
