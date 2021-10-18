@@ -1,4 +1,4 @@
-import React,{useState} from 'react';
+import React,{useState} from 'react';  // we have to import this line for change such as name.
 import './index.css';
 import Student from './User';
 function App(){
